@@ -1,0 +1,19 @@
+This is some old classwork from a course I took Junior year of college (that's
+third-year, for those outside the US). It contains a character driver that is
+instrumental in playing a networked "game." The client and server code for that
+game is also available in the repo.
+
+I'm hoping this is the most recent version of everything, but some of this might
+be half-finished. If it is, then unfortunately the rest of the work is lost
+forever.
+
+I didn't clean up anything in the repository, for fear of losing something
+important. There are definitely some binaries in the repo that could be removed,
+but again, I haven't touched this stuff in a while and would rather play it
+safe.
+
+Feel free to download and poke around for educational purposes. Please don't
+redistribute anything without attribution, and definitely don't redistribute
+without including the source code.
+
+- Scott

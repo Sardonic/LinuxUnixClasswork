@@ -1,0 +1,399 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BACKLOG	../ipc/sockets.h	15;"	d
+BLANK	../client/microsh.h	/^	BLANK             \/* Empty input or a line of blanks only                *\/$/;"	e	enum:__anon2
+BLANK_CHARS	../common/common.h	18;"	d
+BSIZE	../common/common.h	15;"	d
+BUG_SERVER_PERIOD	../common/common.h	21;"	d
+CBREAK	../tty/ttymodes.c	/^static enum { RESET, RAW, CBREAK }	ttystate = RESET;$/;"	e	enum:__anon9	file:
+CC	../client/Makefile	/^CC=gcc$/;"	m
+CC	../ipc/Makefile	/^CC=gcc$/;"	m
+CC	../server/Makefile	/^CC=gcc$/;"	m
+CC	../tty/Makefile	/^CC=gcc$/;"	m
+CC	../util/Makefile	/^CC=gcc$/;"	m
+CC	./Makefile	/^CC=gcc$/;"	m
+CC_COMPILE	../ipc/Makefile	/^CC_COMPILE=-c$/;"	m
+CC_OPTIONS	../client/Makefile	/^CC_OPTIONS=-Wall -Wmissing-prototypes -Wmissing-declarations -g$/;"	m
+CC_OPTIONS	../ipc/Makefile	/^CC_OPTIONS=-Wall -Wmissing-prototypes -Wmissing-declarations $(ISO) $(DEBUG)$/;"	m
+CC_OPTIONS	../server/Makefile	/^CC_OPTIONS=-Wall -Wmissing-prototypes -Wmissing-declarations $(ISO) $(DEBUG)$/;"	m
+CC_OPTIONS	../tty/Makefile	/^CC_OPTIONS=-Wall -Wmissing-prototypes -Wmissing-declarations -g$/;"	m
+CC_OPTIONS	../util/Makefile	/^CC_OPTIONS=-Wall -Wmissing-prototypes -Wmissing-declarations $(ISO) $(DEBUG)$/;"	m
+CC_OPTIONS	./Makefile	/^CC_OPTIONS=-Wall -Wmissing-prototypes -Wmissing-declarations $(ISO) $(DEBUG)$/;"	m
+CMD_LINE_MAX_CHARS	../client/microsh.h	20;"	d
+COMMON	../client/Makefile	/^COMMON=..\/common$/;"	m
+COMMON	../ipc/Makefile	/^COMMON=..\/common$/;"	m
+COMMON	../server/Makefile	/^COMMON=..\/common$/;"	m
+COMMON	../tty/Makefile	/^COMMON=..\/common$/;"	m
+COMMON	../util/Makefile	/^COMMON=..\/common$/;"	m
+COMMON	./Makefile	/^COMMON=..\/common$/;"	m
+DEBUG	../common/common.h	84;"	d
+DEBUG	../common/common.h	86;"	d
+DEBUG	../ipc/Makefile	/^DEBUG=-g -D_DEBUG$/;"	m
+DEBUG	../server/Makefile	/^DEBUG=-g #-D_DEBUG$/;"	m
+DEBUG	../util/Makefile	/^DEBUG=-g -D_DEBUG$/;"	m
+DEBUG	./Makefile	/^DEBUG=-g #-D_DEBUG$/;"	m
+DLIB	../ipc/Makefile	/^DLIB=libipc.so$/;"	m
+ELAPSED_TIME	../common/protocol.h	/^	ELAPSED_TIME, \/* Get eplased time fromt the server *\/$/;"	e	enum:__anon4
+ELOG	../common/common.h	65;"	d
+ELOG	../common/common.h	67;"	d
+ERR_CLI_REQUEST	../ipc/ipc.h	/^	ERR_CLI_REQUEST,    \/* Client is not allowed to receive requests in a given implemetatition *\/$/;"	e	enum:__anon7
+ERR_CLI_RESPONSE	../ipc/ipc.h	/^	ERR_CLI_RESPONSE,   \/* Client is not allowed to send responses in a given implemetatition *\/$/;"	e	enum:__anon7
+ERR_SRV_REQUEST	../ipc/ipc.h	/^	ERR_SRV_REQUEST,    \/* Server is not allowed to make requests in a given implemetatition *\/$/;"	e	enum:__anon7
+ERR_SRV_RESPONSE	../ipc/ipc.h	/^	ERR_SRV_RESPONSE,   \/* Server is not allowed to receive response in a given implemetatition *\/$/;"	e	enum:__anon7
+EXE	../Makefile	/^EXE=snoopsrv rshell rsnoop$/;"	m
+EXE	../client/Makefile	/^EXE=microsh$/;"	m
+EXE	../server/Makefile	/^EXE=mtimesrv snoopsrv$/;"	m
+EXE	./Makefile	/^EXE=mtimesrv snoopsrv$/;"	m
+HEADERS	../tty/Makefile	/^HEADERS=$(COMMON)\/common.h tty-pty.h$/;"	m
+HELP	../client/microsh.h	/^	HELP,             \/* Show help                                           *\/$/;"	e	enum:__anon2
+IDLE	../common/protocol.h	/^	IDLE = 0,     \/* Sitting, doing nothing, not really needed now *\/$/;"	e	enum:__anon3
+INC	../client/Makefile	/^INC=-I. -I$(COMMON) -I$(IPC) -I..\/server -I..\/client -I$(UTIL)$/;"	m
+INC	../ipc/Makefile	/^INC=-I$(COMMON) -I$(IPC) -I..\/server -I..\/client$/;"	m
+INC	../server/Makefile	/^INC=-I. -I$(COMMON) -I$(IPC) -I..\/server -I..\/client -I$(UTIL) -I$(TTY)$/;"	m
+INC	../tty/Makefile	/^INC=-I. -I$(COMMON) -I$(IPC)$/;"	m
+INC	../util/Makefile	/^INC=-I. -I$(COMMON)$/;"	m
+INC	./Makefile	/^INC=-I. -I$(COMMON) -I$(IPC) -I..\/server -I..\/client -I$(UTIL) -I$(TTY)$/;"	m
+INVALID_IPC_PACKET	../ipc/ipc.h	/^	INVALID_IPC_PACKET, \/* Malformed ICP packet structure *\/$/;"	e	enum:__anon7
+INVALID_REQUEST	../ipc/ipc.h	/^	INVALID_REQUEST,    \/* Malformed request struture *\/$/;"	e	enum:__anon7
+INVALID_RESPONSE	../ipc/ipc.h	/^	INVALID_RESPONSE,   \/* Malformed response structure *\/$/;"	e	enum:__anon7
+IPC	../client/Makefile	/^IPC=..\/ipc$/;"	m
+IPC	../ipc/Makefile	/^IPC=.$/;"	m
+IPC	../server/Makefile	/^IPC=..\/ipc$/;"	m
+IPC	../tty/Makefile	/^IPC=..\/ipc$/;"	m
+IPC	./Makefile	/^IPC=..\/ipc$/;"	m
+LIBDIRS	../client/Makefile	/^LIBDIRS=-L$(IPC)$/;"	m
+LIBDIRS	../server/Makefile	/^LIBDIRS=-L$(IPC) -L$(TTY)$/;"	m
+LIBDIRS	./Makefile	/^LIBDIRS=-L$(IPC) -L$(TTY)$/;"	m
+LIBIPC	../server/Makefile	/^LIBIPC=libipc.a$/;"	m
+LIBIPC	./Makefile	/^LIBIPC=libipc.a$/;"	m
+LIBTTY	../server/Makefile	/^LIBTTY=libtty.a$/;"	m
+LIBTTY	./Makefile	/^LIBTTY=libtty.a$/;"	m
+LOG	../common/common.h	59;"	d
+LOG	../common/common.h	61;"	d
+MEMORY_ERROR	../ipc/ipc.h	/^	MEMORY_ERROR,       \/* Memorry allocation error *\/$/;"	e	enum:__anon7
+MICROSHELL_VERSION	../client/microsh.h	17;"	d
+MSGQ	../common/protocol.h	/^	MSGQ     \/* Message Queues *\/$/;"	e	enum:__anon5
+MTIMESRV_VERSION	../server/mtimesrv.h	15;"	d
+MTIMESRV_VERSION	./mtimesrv.h	15;"	d
+NONE	../common/protocol.h	/^	NONE = 0,     \/* We are not interested in time (in the case of open and terminate commands) *\/$/;"	e	enum:__anon4
+NPIPES	../common/protocol.h	/^	NPIPES,  \/* Named Pipes (FIFOs)*\/$/;"	e	enum:__anon5
+NULLPTR	../common/types.h	17;"	d
+OBJ	../client/Makefile	/^OBJ=microsh.o msh_parse.o pipeline.o$/;"	m
+OBJ	../ipc/Makefile	/^OBJ=ipc.o shmem.o sockets.o npipes.o sem.o msq.o$/;"	m
+OBJ	../server/Makefile	/^OBJ=server.o mtimesrv.o snoopsrv.o$/;"	m
+OBJ	../tty/Makefile	/^OBJ=ptyfork.o ptyopen.o pty-loop.o isatty.o ttymodes.o writen.o$/;"	m
+OBJ	../util/Makefile	/^OBJ=file.o msh_string.o$/;"	m
+OBJ	./Makefile	/^OBJ=server.o mtimesrv.o snoopsrv.o$/;"	m
+OK	../ipc/ipc.h	/^	OK = 0,$/;"	e	enum:__anon7
+OLOG	../common/common.h	71;"	d
+OLOG	../common/common.h	73;"	d
+OPEN	../common/protocol.h	/^	OPEN,         \/* Register client *\/$/;"	e	enum:__anon3
+P	../ipc/sem.c	/^P(int sem_id, int sem_num)$/;"	f
+PERREXIT	../common/common.h	77;"	d
+PERREXIT	../common/common.h	79;"	d
+PING	../common/protocol.h	/^	PING,         \/* Process PING request *\/$/;"	e	enum:__anon3
+PIPELINE	../client/microsh.h	/^	PIPELINE,         \/* Pipeline command type                               *\/$/;"	e	enum:__anon2
+PRINT	../common/common.h	53;"	d
+PRINT	../common/common.h	55;"	d
+PTSNAME_SIZE	../tty/tty-pty.h	19;"	d
+QUIT	../client/microsh.h	/^	QUIT,             \/* Quit command                                        *\/$/;"	e	enum:__anon2
+RAW	../tty/ttymodes.c	/^static enum { RESET, RAW, CBREAK }	ttystate = RESET;$/;"	e	enum:__anon9	file:
+READER	../ipc/sem.h	16;"	d
+REDIR_OUT_APPEND	../util/file.h	/^	REDIR_OUT_APPEND    = 1  \/* >> *\/$/;"	e	enum:__anon10
+REDIR_OUT_OVERWRITE	../util/file.h	/^	REDIR_OUT_OVERWRITE = 0, \/* >  *\/$/;"	e	enum:__anon10
+REGISTER	../client/microsh.h	/^	REGISTER,         \/* Register a client within a server                   *\/$/;"	e	enum:__anon2
+RESET	../tty/ttymodes.c	/^static enum { RESET, RAW, CBREAK }	ttystate = RESET;$/;"	e	enum:__anon9	file:
+RSHELL	../common/protocol.h	/^	RSHELL,$/;"	e	enum:__anon3
+RSHELL_NAME	../server/snoopsrv.h	21;"	d
+RSHELL_NAME	./snoopsrv.h	21;"	d
+RSHELL_OPTS	../server/snoopsrv.h	22;"	d
+RSHELL_OPTS	./snoopsrv.h	22;"	d
+RSNOOP	../common/protocol.h	/^	RSNOOP,$/;"	e	enum:__anon3
+SERVER_KEY	../common/protocol.h	16;"	d
+SERVER_PORT	../common/protocol.h	17;"	d
+SHMEM	../common/protocol.h	/^	SHMEM,   \/* Shared Memory *\/$/;"	e	enum:__anon5
+SHMEM_SEG_LOOKUP_THRESHOLD	../ipc/shmem.h	16;"	d
+SH_LISTENING	../client/microsh.h	/^	SH_LISTENING, \/* Shell is "listening" for user's input            *\/$/;"	e	enum:__anon1
+SH_QUIT	../client/microsh.h	/^	SH_QUIT       \/* Shell receives a signal to quit                  *\/$/;"	e	enum:__anon1
+SH_REMOTE	../client/microsh.h	/^	SH_REMOTE,$/;"	e	enum:__anon1
+SLIB	../client/Makefile	/^SLIB=libipc.a$/;"	m
+SLIB	../ipc/Makefile	/^SLIB=libipc.a$/;"	m
+SLIB	../tty/Makefile	/^SLIB=libtty.a$/;"	m
+SNOOPFILE_PREFIX	../server/snoopsrv.h	18;"	d
+SNOOPFILE_PREFIX	./snoopsrv.h	18;"	d
+SNOOPSRV_CHILD	../server/server.h	/^	SNOOPSRV_CHILD$/;"	e	enum:__anon2
+SNOOPSRV_CHILD	../server/server.h	/^	SNOOPSRV_CHILD$/;"	e	enum:__anon8
+SNOOPSRV_CHILD	./server.h	/^	SNOOPSRV_CHILD$/;"	e	enum:__anon1
+SNOOPSRV_DAEMON	../server/server.h	/^	SNOOPSRV_DAEMON,$/;"	e	enum:__anon2
+SNOOPSRV_DAEMON	../server/server.h	/^	SNOOPSRV_DAEMON,$/;"	e	enum:__anon8
+SNOOPSRV_DAEMON	./server.h	/^	SNOOPSRV_DAEMON,$/;"	e	enum:__anon1
+SNOOPSRV_VERSION	../server/snoopsrv.h	15;"	d
+SNOOPSRV_VERSION	./snoopsrv.h	15;"	d
+SOCKETS	../common/protocol.h	/^	SOCKETS, \/* Sockets :) *\/$/;"	e	enum:__anon5
+SRV_ELAPSED_TIME	../client/microsh.h	/^	SRV_ELAPSED_TIME, \/* Reuqest time from the server                        *\/$/;"	e	enum:__anon2
+SRV_RSHELL	../client/microsh.h	/^	SRV_RSHELL,$/;"	e	enum:__anon2
+SRV_RSNOOP	../client/microsh.h	/^	SRV_RSNOOP,$/;"	e	enum:__anon2
+SRV_TOD	../client/microsh.h	/^	SRV_TOD,          \/* Time of the day                                     *\/$/;"	e	enum:__anon2
+SRV_VERSION	../client/microsh.h	/^	SRV_VERSION,      \/* Ask for server's version                            *\/$/;"	e	enum:__anon2
+TERMINATE	../common/protocol.h	/^	TERMINATE     \/* Terminate *\/$/;"	e	enum:__anon3
+TIME	../common/protocol.h	/^	TIME,         \/* Regquest time from the server. See time types below *\/$/;"	e	enum:__anon3
+TIMEOUT	../common/common.h	25;"	d
+TIMEOUT_RETRIES	../common/common.h	24;"	d
+TIMESRV	../server/server.h	/^	TIMESRV,$/;"	e	enum:__anon2
+TIMESRV	../server/server.h	/^	TIMESRV,$/;"	e	enum:__anon8
+TIMESRV	./server.h	/^	TIMESRV,$/;"	e	enum:__anon1
+TOD	../common/protocol.h	/^	TOD           \/* Get time of the day *\/$/;"	e	enum:__anon4
+TTY	../server/Makefile	/^TTY=..\/tty$/;"	m
+TTY	./Makefile	/^TTY=..\/tty$/;"	m
+UNIMPLEMENTED	../ipc/ipc.h	/^	UNIMPLEMENTED,      \/* Method not implemented *\/$/;"	e	enum:__anon7
+UNKNOWN	../client/microsh.h	/^	UNKNOWN,          \/* Command parser was unable to determine command type *\/$/;"	e	enum:__anon2
+UNKNOWN	../server/server.h	/^	UNKNOWN,$/;"	e	enum:__anon2
+UNKNOWN	../server/server.h	/^	UNKNOWN,$/;"	e	enum:__anon8
+UNKNOWN	./server.h	/^	UNKNOWN,$/;"	e	enum:__anon1
+UNSUPPORTED_IPC	../ipc/ipc.h	/^	UNSUPPORTED_IPC     \/* Unsupported IPC method requested *\/$/;"	e	enum:__anon7
+UTIL	../client/Makefile	/^UTIL=..\/util$/;"	m
+UTIL	../server/Makefile	/^UTIL=..\/util$/;"	m
+UTIL	./Makefile	/^UTIL=..\/util$/;"	m
+UTILOBJ	../client/Makefile	/^UTILOBJ=$(UTIL)\/file.o $(UTIL)\/msh_string.o$/;"	m
+V	../ipc/sem.c	/^V(int sem_id, int sem_num)$/;"	f
+VERSION	../common/protocol.h	/^	VERSION,      \/* Process version request *\/$/;"	e	enum:__anon3
+WRITER	../ipc/sem.h	17;"	d
+_COMMON_H_	../common/common.h	10;"	d
+_FILE_H	../util/file.h	2;"	d
+_IPC_H	../ipc/ipc.h	10;"	d
+_MICROSH_H	../client/microsh.h	10;"	d
+_MSH_PARSE_H	../client/msh_parse.h	10;"	d
+_MSH_STRING_H	../util/msh_string.h	10;"	d
+_MSQ_H	../ipc/msq.h	10;"	d
+_MTIMESRV_H	../server/mtimesrv.h	10;"	d
+_MTIMESRV_H	./mtimesrv.h	10;"	d
+_NPIPES_H	../ipc/npipes.h	10;"	d
+_PIPELINE_H	../client/pipeline.h	10;"	d
+_PROTOCOL_H_	../common/protocol.h	10;"	d
+_SEM_H	../ipc/sem.h	10;"	d
+_SERVER_H	../server/server.h	8;"	d
+_SERVER_H	./server.h	8;"	d
+_SHMEM_H	../ipc/shmem.h	10;"	d
+_SNOOPSRV_H	../server/snoopsrv.h	10;"	d
+_SNOOPSRV_H	./snoopsrv.h	10;"	d
+_SOCKETS_H	../ipc/sockets.h	10;"	d
+_TTY_PTY_H	../tty/tty-pty.h	11;"	d
+_TYPES_H	../common/types.h	10;"	d
+__buf	../common/types.h	/^	   struct seminfo*     __buf; \/* buffer for IPC_INFO *\/$/;"	m	union:semun	typeref:struct:semun::seminfo
+_cli_request	../common/protocol.h	/^typedef struct _cli_request$/;"	s
+_icp_packet	../ipc/ipc.h	/^typedef struct _icp_packet$/;"	s
+_srv_response	../common/protocol.h	/^typedef struct _srv_response$/;"	s
+_srv_status	../server/server.h	/^typedef struct _srv_status$/;"	s
+_srv_status	./server.h	/^typedef struct _srv_status$/;"	s
+array	../common/types.h	/^	   unsigned short int* array; \/* array for GETALL, SETALL *\/$/;"	m	union:semun
+bool	../common/types.h	/^	} bool;$/;"	t	typeref:enum:__anon6
+buf	../common/types.h	/^	   struct semid_ds*    buf;   \/* buffer for IPC_STAT, IPC_SET *\/$/;"	m	union:semun	typeref:struct:semun::semid_ds
+cleanUp	../client/microsh.c	/^cleanUp(void)$/;"	f
+cleanUp	../server/mtimesrv.c	/^cleanUp(void)$/;"	f
+cleanUp	../server/server.h	/^	void (*cleanUp)();$/;"	m	struct:_srv_status
+cleanUp	../server/snoopsrv.c	/^cleanUp(void)$/;"	f
+cleanUp	./mtimesrv.c	/^cleanUp(void)$/;"	f
+cleanUp	./server.h	/^	void (*cleanUp)();$/;"	m	struct:_srv_status
+cleanUp	./snoopsrv.c	/^cleanUp(void)$/;"	f
+client_pid	../common/protocol.h	/^	pid_t    client_pid;  \/* PID of a client making request *\/$/;"	m	struct:_cli_request
+cmd_argvs	../client/microsh.h	/^   	char***     cmd_argvs;                   \/* dynamic container of all agrv's       *\/$/;"	m	struct:sh_status
+cmdline	../client/microsh.h	/^	char        cmdline[CMD_LINE_MAX_CHARS]; \/* a working copy of the command line    *\/$/;"	m	struct:sh_status
+command	../common/protocol.h	/^	srvcmd   command;     \/* command to communicate to the server *\/$/;"	m	struct:_cli_request
+connectSnoopSrv	../client/microsh.c	/^connectSnoopSrv(char* host)$/;"	f
+connectTimeSrv	../client/microsh.c	/^connectTimeSrv(void)$/;"	f
+connected	../client/microsh.h	/^	bool        connected;                   \/* indicates that the client connected   *\/$/;"	m	struct:sh_status
+curr_cmd	../client/microsh.h	/^	sh_commands curr_cmd;                    \/* type of parsed command                *\/$/;"	m	struct:sh_status
+curr_signal	../client/microsh.h	/^	sh_signals  curr_signal;                 \/* shell's mode of operation             *\/$/;"	m	struct:sh_status
+daemonize	../server/server.c	/^daemonize(void)$/;"	f
+daemonize	./server.c	/^daemonize(void)$/;"	f
+data	../common/protocol.h	/^	char     data[BSIZE]; \/* in case we need to communicate some arbitrary data to the server *\/$/;"	m	struct:_cli_request
+data	../common/protocol.h	/^	char  data[BSIZE]; \/* Actual response data from the server *\/$/;"	m	struct:_srv_response
+destroySem	../ipc/sem.c	/^destroySem(int sem_id)$/;"	f
+disconnect	../client/microsh.c	/^disconnect(void)$/;"	f
+eolCount	../util/msh_string.c	/^int eolCount(char* buf)$/;"	f
+establishRedirection	../util/file.c	/^establishRedirection(const char* filename, redir_type_enum redir_type, int std_io_files)$/;"	f
+execPipeline	../client/pipeline.c	/^execPipeline(int p_pipeNum, int p_prevWriteFd)$/;"	f
+extra	../ipc/ipc.h	/^	void*   extra;       \/* in case if the above is not enough. maybe kludggy *\/$/;"	m	struct:_icp_packet
+false	../common/types.h	/^		false = 0,$/;"	e	enum:__anon6
+finishIPC	../ipc/ipc.c	/^finishIPC(ipc_packet_t* ipc_packet)$/;"	f
+finishIpcMsgq	../ipc/msq.c	/^finishIpcMsgq(ipc_packet_t* ipc_packet)$/;"	f
+finishIpcNpipes	../ipc/npipes.c	/^finishIpcNpipes(ipc_packet_t* ipc_packet)$/;"	f
+finishIpcShmem	../ipc/shmem.c	/^finishIpcShmem(ipc_packet_t* ipc_packet)$/;"	f
+finishIpcSockets	../ipc/sockets.c	/^finishIpcSockets(ipc_packet_t* ipc_packet)$/;"	f
+init	../client/microsh.c	/^init(void)$/;"	f
+init	../server/mtimesrv.c	/^init(void)$/;"	f
+init	../server/server.h	/^	void (*init)();$/;"	m	struct:_srv_status
+init	../server/snoopsrv.c	/^init(void)$/;"	f
+init	./mtimesrv.c	/^init(void)$/;"	f
+init	./server.h	/^	void (*init)();$/;"	m	struct:_srv_status
+init	./snoopsrv.c	/^init(void)$/;"	f
+initIPC	../ipc/ipc.c	/^initIPC(ipc_packet_t* ipc_packet)$/;"	f
+initIpcMsgq	../ipc/msq.c	/^initIpcMsgq(ipc_packet_t* ipc_packet)$/;"	f
+initIpcNpipes	../ipc/npipes.c	/^initIpcNpipes(ipc_packet_t* ipc_packet)$/;"	f
+initIpcShmem	../ipc/shmem.c	/^initIpcShmem(ipc_packet_t* ipc_packet)$/;"	f
+initIpcSockets	../ipc/sockets.c	/^initIpcSockets(ipc_packet_t* ipc_packet)$/;"	f
+initSemKey	../ipc/sem.c	/^initSemKey(int num_of_sem, key_t key, int* array)$/;"	f
+initSemStr	../ipc/sem.c	/^initSemStr(int num_of_sem, char* str, char proj, int* array)$/;"	f
+initSignals	../client/microsh.c	/^initSignals(void)$/;"	f
+ipc_err_msgs	../ipc/ipc.c	/^char* ipc_err_msgs[] =$/;"	v
+ipc_errno	../ipc/ipc.h	/^ipc_error_enum ipc_errno;$/;"	v
+ipc_error_enum	../ipc/ipc.h	/^} ipc_error_enum;$/;"	t	typeref:enum:__anon7
+ipc_method	../common/protocol.h	/^	ipc_mtd  ipc_method;  \/* Not used now, but for debugging could be used *\/$/;"	m	struct:_cli_request
+ipc_method	../ipc/ipc.h	/^	ipc_mtd ipc_method;  \/* IPC method of communiction to use *\/$/;"	m	struct:_icp_packet
+ipc_mtd	../common/protocol.h	/^} ipc_mtd;$/;"	t	typeref:enum:__anon5
+ipc_packet_data	../client/microsh.c	/^ipc_packet_t ipc_packet_data;$/;"	v
+ipc_packet_data	../server/mtimesrv.c	/^ipc_packet_t ipc_packet_data; \/* For internal inter-module communication *\/$/;"	v
+ipc_packet_data	../server/snoopsrv.c	/^ipc_packet_t ipc_packet_data; \/* For intermal inter-module communication *\/$/;"	v
+ipc_packet_data	./mtimesrv.c	/^ipc_packet_t ipc_packet_data; \/* For internal inter-module communication *\/$/;"	v
+ipc_packet_data	./snoopsrv.c	/^ipc_packet_t ipc_packet_data; \/* For intermal inter-module communication *\/$/;"	v
+ipc_packet_t	../ipc/ipc.h	/^} ipc_packet_t;$/;"	t	typeref:struct:_icp_packet
+ipcerror	../ipc/ipc.c	/^ipcerror(char* msg)$/;"	f
+isAllBlanks	../util/msh_string.c	/^isAllBlanks(char* str)$/;"	f
+isBlank	../util/msh_string.c	/^isBlank(char c)$/;"	f
+isatty	../tty/isatty.c	/^isatty(int fd)$/;"	f
+jmpbuf	../client/microsh.c	/^static sigjmp_buf jmpbuf;$/;"	v	file:
+just_started	../server/server.h	/^	bool          just_started; \/* A flag to prevent from self-seizing on a startup *\/$/;"	m	struct:_srv_status
+just_started	./server.h	/^	bool          just_started; \/* A flag to prevent from self-seizing on a startup *\/$/;"	m	struct:_srv_status
+main	../client/microsh.c	/^main(int argc, char* argv[])$/;"	f
+main	../server/mtimesrv.c	/^main(int argc, char* argv[])$/;"	f
+main	../server/snoopsrv.c	/^main(int argc, char* argv[])$/;"	f
+main	./mtimesrv.c	/^main(int argc, char* argv[])$/;"	f
+main	./snoopsrv.c	/^main(int argc, char* argv[])$/;"	f
+max	../common/common.h	29;"	d
+min	../common/common.h	28;"	d
+occurs	../util/msh_string.c	/^occurs(char* line, char* str)$/;"	f
+onAckTimeout	../client/microsh.c	/^onAckTimeout(int signo)$/;"	f	file:
+onAlarm	../client/microsh.c	/^onAlarm(int signo)$/;"	f	file:
+paramcnt	../client/msh_parse.c	/^paramcnt(char* p_cmd) {$/;"	f
+parseCmd	../client/msh_parse.c	/^parseCmd(char* p_cmd)$/;"	f
+ping_count	../client/microsh.h	/^	int         ping_count;                  \/* how many ping requests has been sent  *\/$/;"	m	struct:sh_status
+pipecnt	../client/msh_parse.c	/^pipecnt(void) {$/;"	f
+pipeline_size	../client/microsh.h	/^	int         pipeline_size;               \/* # of pipes in the pipeline            *\/$/;"	m	struct:sh_status
+processPing	../server/mtimesrv.c	/^processPing(void)$/;"	f
+processPing	./mtimesrv.c	/^processPing(void)$/;"	f
+ptyLoop	../tty/pty-loop.c	/^ptyLoop(int ptym, int ignoreeof, int snoopFd, int socket, bool snoop)$/;"	f
+pty_fork	../tty/ptyfork.c	/^pty_fork$/;"	f
+ptym_open	../tty/ptyopen.c	/^ptym_open(char* pts_name)$/;"	f
+ptys_open	../tty/ptyopen.c	/^ptys_open(int fdm, char *pts_name)$/;"	f
+readc	../util/msh_string.c	/^readc()$/;"	f
+receiveRequest	../ipc/ipc.c	/^receiveRequest(ipc_packet_t* ipc_packet)$/;"	f
+receiveRequestMsgq	../ipc/msq.c	/^receiveRequestMsgq(ipc_packet_t* ipc_packet)$/;"	f
+receiveRequestNpipes	../ipc/npipes.c	/^receiveRequestNpipes(ipc_packet_t* ipc_packet)$/;"	f
+receiveRequestShmem	../ipc/shmem.c	/^receiveRequestShmem(ipc_packet_t* ipc_packet)$/;"	f
+receiveRequestSockets	../ipc/sockets.c	/^receiveRequestSockets(ipc_packet_t* ipc_packet)$/;"	f
+receiveResponse	../ipc/ipc.c	/^receiveResponse(ipc_packet_t* ipc_packet)$/;"	f
+receiveResponseMsgq	../ipc/msq.c	/^receiveResponseMsgq(ipc_packet_t* ipc_packet)$/;"	f
+receiveResponseNpipes	../ipc/npipes.c	/^receiveResponseNpipes(ipc_packet_t* ipc_packet)$/;"	f
+receiveResponseShmem	../ipc/shmem.c	/^receiveResponseShmem(ipc_packet_t* ipc_packet)$/;"	f
+receiveResponseSockets	../ipc/sockets.c	/^receiveResponseSockets(ipc_packet_t* ipc_packet)$/;"	f
+redir_type_enum	../util/file.h	/^} redir_type_enum;$/;"	t	typeref:enum:__anon10
+redirect_file	../client/microsh.h	/^	char*       redirect_file;               \/* redirect filename                     *\/$/;"	m	struct:sh_status
+redirection	../client/microsh.h	/^	bool        redirection;                 \/* whether redirection present or not    *\/$/;"	m	struct:sh_status
+redirtype	../client/microsh.h	/^	bool        redirtype;                   \/* overwrite data ('>') or append ('>>') *\/$/;"	m	struct:sh_status
+ref_count	../server/server.h	/^	int           ref_count;    \/* Number of "connected" clients *\/$/;"	m	struct:_srv_status
+ref_count	./server.h	/^	int           ref_count;    \/* Number of "connected" clients *\/$/;"	m	struct:_srv_status
+registerClient	../server/mtimesrv.c	/^registerClient()$/;"	f
+registerClient	../server/snoopsrv.c	/^registerClient(int socket)$/;"	f
+registerClient	./mtimesrv.c	/^registerClient()$/;"	f
+registerClient	./snoopsrv.c	/^registerClient(int socket)$/;"	f
+reqresp	../ipc/ipc.h	/^	void*   reqresp;     \/* request_t\/response_t pointer to be sent *\/$/;"	m	struct:_icp_packet
+request	../server/mtimesrv.c	/^request_t    request;         \/* To keep and process a copy of the received request *\/$/;"	v
+request	../server/snoopsrv.c	/^request_t    request;         \/* To keep and process a copy of the received request *\/$/;"	v
+request	./mtimesrv.c	/^request_t    request;         \/* To keep and process a copy of the received request *\/$/;"	v
+request	./snoopsrv.c	/^request_t    request;         \/* To keep and process a copy of the received request *\/$/;"	v
+requestPrepare	../client/microsh.c	/^requestPrepare(request_t* request)$/;"	f
+request_t	../common/protocol.h	/^} request_t;$/;"	t	typeref:struct:_cli_request
+reset	../client/microsh.c	/^reset(void)$/;"	f
+resource_id	../common/protocol.h	/^	int      resource_id; \/* private shmem seg of the client *\/$/;"	m	struct:_cli_request
+resource_id	../ipc/ipc.h	/^	int     resource_id; \/* shmid, fifoid, etc... *\/$/;"	m	struct:_icp_packet
+resource_id	../server/server.h	/^	int           resource_id;$/;"	m	struct:_srv_status
+resource_id	./server.h	/^	int           resource_id;$/;"	m	struct:_srv_status
+response	../client/microsh.c	/^response_t response; \/* A ptr to our private mem seg. *\/$/;"	v
+responsePrepare	../server/mtimesrv.c	/^responsePrepare(response_t* response)$/;"	f
+responsePrepare	../server/snoopsrv.c	/^responsePrepare(response_t* response, int socket)$/;"	f
+responsePrepare	./mtimesrv.c	/^responsePrepare(response_t* response)$/;"	f
+responsePrepare	./snoopsrv.c	/^responsePrepare(response_t* response, int socket)$/;"	f
+response_t	../common/protocol.h	/^} response_t;$/;"	t	typeref:struct:_srv_response
+rshell	../client/microsh.c	/^rshell(char* cmd)$/;"	f
+rshell	../server/snoopsrv.c	/^rshell(void)$/;"	f
+rshell	./snoopsrv.c	/^rshell(void)$/;"	f
+rsnoop	../client/microsh.c	/^rsnoop(char* cmd)$/;"	f
+rsnoop	../server/snoopsrv.c	/^rsnoop(void)$/;"	f
+rsnoop	./snoopsrv.c	/^rsnoop(void)$/;"	f
+save_termios	../tty/ttymodes.c	/^static struct termios	save_termios;$/;"	v	typeref:struct:termios	file:
+sem_id	../client/microsh.h	/^	int         sem_id;                      \/* our sempahore set ID                  *\/$/;"	m	struct:sh_status
+sem_id	../common/protocol.h	/^	int      sem_id;      \/* client's semaphore for the shmem seg *\/$/;"	m	struct:_cli_request
+sem_id	../ipc/ipc.h	/^	int     sem_id;      \/* ID of a semaphore set *\/$/;"	m	struct:_icp_packet
+sem_id	../server/server.h	/^	int           sem_id;$/;"	m	struct:_srv_status
+sem_id	./server.h	/^	int           sem_id;$/;"	m	struct:_srv_status
+semun	../common/types.h	/^union semun$/;"	u
+sendRequest	../ipc/ipc.c	/^sendRequest(ipc_packet_t* ipc_packet)$/;"	f
+sendRequestMsgq	../ipc/msq.c	/^sendRequestMsgq(ipc_packet_t* ipc_packet)$/;"	f
+sendRequestNpipes	../ipc/npipes.c	/^sendRequestNpipes(ipc_packet_t* ipc_packet)$/;"	f
+sendRequestShmem	../ipc/shmem.c	/^sendRequestShmem(ipc_packet_t* ipc_packet)$/;"	f
+sendRequestSockets	../ipc/sockets.c	/^sendRequestSockets(ipc_packet_t* ipc_packet)$/;"	f
+sendResponse	../ipc/ipc.c	/^sendResponse(ipc_packet_t* ipc_packet)$/;"	f
+sendResponseMsgq	../ipc/msq.c	/^sendResponseMsgq(ipc_packet_t* ipc_packet)$/;"	f
+sendResponseNpipes	../ipc/npipes.c	/^sendResponseNpipes(ipc_packet_t* ipc_packet)$/;"	f
+sendResponseShmem	../ipc/shmem.c	/^sendResponseShmem(ipc_packet_t* ipc_packet)$/;"	f
+sendResponseSockets	../ipc/sockets.c	/^sendResponseSockets(ipc_packet_t* ipc_packet)$/;"	f
+sendTime	../server/mtimesrv.c	/^sendTime(void)$/;"	f
+sendTime	./mtimesrv.c	/^sendTime(void)$/;"	f
+sendVersion	../server/mtimesrv.c	/^sendVersion(void)$/;"	f
+sendVersion	../server/snoopsrv.c	/^sendVersion(int socket)$/;"	f
+sendVersion	./mtimesrv.c	/^sendVersion(void)$/;"	f
+sendVersion	./snoopsrv.c	/^sendVersion(int socket)$/;"	f
+server	../ipc/ipc.h	/^	bool    server;      \/* true for server, false for client *\/$/;"	m	struct:_icp_packet
+setupSemaphores	../client/microsh.c	/^setupSemaphores(void)$/;"	f
+setupSemaphores	../server/mtimesrv.c	/^setupSemaphores(void)$/;"	f
+setupSemaphores	./mtimesrv.c	/^setupSemaphores(void)$/;"	f
+sh_commands	../client/microsh.h	/^} sh_commands;$/;"	t	typeref:enum:__anon2
+sh_signals	../client/microsh.h	/^} sh_signals;$/;"	t	typeref:enum:__anon1
+sh_status	../client/microsh.h	/^typedef struct sh_status$/;"	s
+sh_status_t	../client/microsh.h	/^} sh_status_t;$/;"	t	typeref:struct:sh_status
+shm_id	../server/server.h	/^	int           shm_id;       \/* ID of our own memory segment  *\/$/;"	m	struct:_srv_status
+shm_id	./server.h	/^	int           shm_id;       \/* ID of our own memory segment  *\/$/;"	m	struct:_srv_status
+shmem	../ipc/ipc.h	/^	void*   shmem;       \/* shmem*, NULL for other IPC means *\/$/;"	m	struct:_icp_packet
+showHelp	../client/microsh.c	/^showHelp(void)$/;"	f
+sig_term	../tty/pty-loop.c	/^sig_term(int signo)$/;"	f	file:
+sigcaught	../tty/pty-loop.c	/^static volatile sig_atomic_t sigcaught; \/* set by signal handler *\/$/;"	v	file:
+srvElapsedTime	../client/microsh.c	/^srvElapsedTime(void)$/;"	f
+srvSendReceive	../client/microsh.c	/^srvSendReceive(void)$/;"	f
+srvTOD	../client/microsh.c	/^srvTOD(void)$/;"	f
+srvVersion	../client/microsh.c	/^srvVersion(void)$/;"	f
+srv_pid	../common/protocol.h	/^	pid_t srv_pid;     \/* Server's PID, just for fun or debugging *\/$/;"	m	struct:_srv_response
+srv_status_t	../server/server.h	/^} srv_status_t;$/;"	t	typeref:struct:_srv_status
+srv_status_t	./server.h	/^} srv_status_t;$/;"	t	typeref:struct:_srv_status
+srv_type	../server/server.h	/^	srv_type_enum srv_type;$/;"	m	struct:_srv_status
+srv_type	./server.h	/^	srv_type_enum srv_type;$/;"	m	struct:_srv_status
+srv_type_enum	../server/server.h	/^} srv_type_enum;$/;"	t	typeref:enum:__anon2
+srv_type_enum	../server/server.h	/^} srv_type_enum;$/;"	t	typeref:enum:__anon8
+srv_type_enum	./server.h	/^} srv_type_enum;$/;"	t	typeref:enum:__anon1
+srvcmd	../common/protocol.h	/^} srvcmd;$/;"	t	typeref:enum:__anon3
+status	../client/microsh.c	/^sh_status_t status;$/;"	v
+status	../server/mtimesrv.c	/^srv_status_t status;          \/* Server keeps its status info here *\/$/;"	v
+status	../server/snoopsrv.c	/^srv_status_t status;          \/* Server keeps its status info here *\/$/;"	v
+status	./mtimesrv.c	/^srv_status_t status;          \/* Server keeps its status info here *\/$/;"	v
+status	./snoopsrv.c	/^srv_status_t status;          \/* Server keeps its status info here *\/$/;"	v
+terminate	../server/mtimesrv.c	/^terminate(void)$/;"	f
+terminate	../server/snoopsrv.c	/^terminate(void)$/;"	f
+terminate	./mtimesrv.c	/^terminate(void)$/;"	f
+terminate	./snoopsrv.c	/^terminate(void)$/;"	f
+time_type	../common/protocol.h	/^	timetype time_type;   \/* time type requested *\/$/;"	m	struct:_cli_request
+timetype	../common/protocol.h	/^} timetype;$/;"	t	typeref:enum:__anon4
+toLowerStr	../util/msh_string.c	/^toLowerStr(char* str)$/;"	f
+toUpperStr	../util/msh_string.c	/^toUpperStr(char* str)$/;"	f
+true	../common/types.h	/^		true  = 1$/;"	e	enum:__anon6
+tty_atexit	../tty/ttymodes.c	/^tty_atexit(void)		\/* can be set up by atexit(tty_atexit) *\/$/;"	f
+tty_cbreak	../tty/ttymodes.c	/^tty_cbreak(int fd)	\/* put terminal into a cbreak mode *\/$/;"	f
+tty_raw	../tty/ttymodes.c	/^tty_raw(int fd)		\/* put terminal into a raw mode *\/$/;"	f
+tty_reset	../tty/ttymodes.c	/^tty_reset(int fd)		\/* restore terminal's mode *\/$/;"	f
+tty_termios	../tty/ttymodes.c	/^tty_termios(void)		\/* let caller see original tty state *\/$/;"	f
+ttysavefd	../tty/ttymodes.c	/^static int				ttysavefd = -1;$/;"	v	file:
+ttystate	../tty/ttymodes.c	/^static enum { RESET, RAW, CBREAK }	ttystate = RESET;$/;"	v	typeref:enum:__anon9	file:
+val	../common/types.h	/^	   int                 val;   \/* value for SETVAL *\/$/;"	m	union:semun
+writen	../tty/writen.c	/^writen(int fd, const void *vptr, size_t n)$/;"	f

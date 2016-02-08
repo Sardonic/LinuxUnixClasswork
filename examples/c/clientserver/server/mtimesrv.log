@@ -1,0 +1,18 @@
+
+Micro Time Server
+Version: Time Server $Id: mtimesrv.h,v 1.2 2014/11/11 21:35:40 mokhov Exp $ Serguei A. Mokhov
+
+Initializing... Done.
+Entering the World of Daemons, 9278...
+Look around you - they are everywhere!
+Your soul 9278 has been reincarnated as 9279.
+
+READER
+sem::P() - was interrupted to catch a signal.
+READ stuff
+Idle
+READER
+sem::P() - was interrupted to catch a signal.
+READ stuff
+Idle
+READER
